@@ -1,11 +1,16 @@
-import React from 'react';
+import React from 'react'
+// Styles
+import './Footer.scss'
 
 const footer = () => {
-  return (
-    <div>
-      Footer
-    </div>
-  );
-};
+   return (
+      <div className='footer'>
+         <div>Movie Rating</div>
+         <div>
+            &copy; 2022 MR Inc. | All Rights Reserved
+         </div>
+      </div>
+   )
+}
 
-export default footer;
+export default footer

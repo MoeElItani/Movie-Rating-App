@@ -19,17 +19,26 @@ function App() {
       <div className='App'>
          <Router>
             <Header />
-            <Routes>
-               {/* Home Page */}
-               <Route path='/' exact element={<Home />} />
-               {/* Movie Details Page */}
-               <Route
-                  path='/movie/:imdbID'
-                  element={<MovieDetails />}
-               />
-               {/* 404 Page Not Found  / Wrong URL */}
-               <Route path='*' element={<PageNotFound />} />
-            </Routes>
+            <div className='container'>
+               <Routes>
+                  {/* Home Page */}
+                  <Route
+                     path='/'
+                     exact
+                     element={<Home />}
+                  />
+                  {/* Movie Details Page */}
+                  <Route
+                     path='/movie/:imdbID'
+                     element={<MovieDetails />}
+                  />
+                  {/* 404 Page Not Found  / Wrong URL */}
+                  <Route
+                     path='*'
+                     element={<PageNotFound />}
+                  />
+               </Routes>
+            </div>
             <Footer />
          </Router>
       </div>
