@@ -4,17 +4,16 @@
    font-family: 'Maven Pro', sans-serif;
 }
 
-a{
-	text-decoration: none;
+a {
+   text-decoration: none;
 }
 
-body{
-	background: $primary-color ;
+body {
+   background: $primary-color;
 }
 
-.container{
-	margin: 0 40px;
-	
+.container {
+   margin: 0 40px;
 }
 
 //CSS RESET
@@ -25,12 +24,12 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
 p,
 blockquote,
 pre,
