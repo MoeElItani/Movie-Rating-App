@@ -23,9 +23,9 @@
       .card-bottom {
          margin: auto;
          align-content: center;
-         max-width: 90%;
+         max-width: 75%;
          .card-info {
-            width: 85%;
+            width: 100%;
             margin: 1rem auto;
             text-align: center;
          }
@@ -37,10 +37,10 @@
       display: flex;
       align-items: flex-start;
       justify-content: flex-start;
-      margin-right: 45%;
+      margin-right: 48%;
    }
    &:nth-last-child(2) {
-      padding-right: 4.4%;
+      padding-right: 1%;
    }
 }
 

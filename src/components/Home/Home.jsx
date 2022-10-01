@@ -11,10 +11,10 @@ import {
 
 const Home = () => {
    const dispatch = useDispatch()
-
+   const name = 'movie'
    useEffect(() => {
-      dispatch(fetchAsyncMovies())
-      dispatch(fetchAsyncShows())
+      dispatch(fetchAsyncMovies(name))
+      dispatch(fetchAsyncShows(name))
    }, [dispatch])
 
    return (
