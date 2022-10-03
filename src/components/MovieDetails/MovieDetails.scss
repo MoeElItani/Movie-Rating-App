@@ -49,3 +49,34 @@
 .fa-calendar {
    color: #e9b45e;
 }
+
+@media screen and (min-width: 0px) and (max-width: 850px) {
+   .movie-section {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+   }
+   .section-left,
+   .section-right {
+      width: 100%;
+   }
+   .movie-info {
+      text-align: center;
+   }
+   .movie-rating {
+      margin-left: -0.75rem;
+      width: 200%;
+   }
+   .movie-title {
+      width: 175%;
+      margin-left: -3.8rem;
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: 500;
+   }
+   .movie-plot {
+      padding-left: 0rem;
+      margin-left: -5rem;
+      width: 200% !important;
+   }
+}

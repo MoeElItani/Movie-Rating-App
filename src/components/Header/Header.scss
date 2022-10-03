@@ -55,3 +55,22 @@
       }
    }
 }
+
+@media screen and (min-width: 0px) and (max-width: 850px) {
+   .header {
+      width: 100%;
+      justify-content: center;
+      margin-left: -5rem;
+   }
+   .logo {
+      // scale: 0.81;
+      width: 50%;
+   }
+   .user-image,
+   .user-image img {
+      display: none;
+   }
+   .search-bar {
+      width: 100%;
+   }
+}

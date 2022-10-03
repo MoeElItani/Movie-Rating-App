@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
+import pnf from '../../images/pnf.jpg'
+import './PageNotFound.scss'
 
 const PageNotFound = () => {
-  return (
-    <div>
-      PageNotFound
-    </div>
-  );
-};
+   return <div className='pnf' />
+}
 
-export default PageNotFound;
+export default PageNotFound
